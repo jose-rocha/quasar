@@ -33,17 +33,17 @@
         ]"
       />
 
-      <q-toggle v-model="accept" label="I accept the license and terms" />
+      <!-- <q-toggle v-model="accept" label="I accept the license and terms" />
 
-      <div>
+      <div> -->
         <q-btn
-          class="full-width q-mb-lg"
+          class="full-width q-mb-lg "
           label="Entrar"
           type="submit"
           color="positive"
         />
-        <q-btn label="limpar os campos" type="reset" color="positive" flat class="q-ml-sm" />
-      </div>
+        <!-- <q-btn label="limpar os campos" type="reset" color="positive" flat class="q-ml-sm" />
+      </div> -->
     </q-form>
 
   </div>
