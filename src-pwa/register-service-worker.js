@@ -35,7 +35,7 @@ register(process.env.SERVICE_WORKER_FILE, {
       icon: 'cloud-download',
       closeBtn: 'Atualizar',
       timeout: 10000,
-      onDismiss: () => {
+      onDismiss() {
         // eslint-disable-next-line no-restricted-globals
         location.reload();
       },
