@@ -1,6 +1,6 @@
 <template>
   <div class="flex column bg-grey" style="height: 400px">
-    <h6>Interface de preferências</h6>
+    <h6 class="text-center">Interface de preferências</h6>
     <div
       class="flex row justify-around"
       :class="q.screen.lt.sm ? 'column' : ''"
