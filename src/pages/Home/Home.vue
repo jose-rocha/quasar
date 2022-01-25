@@ -71,6 +71,7 @@ export default defineComponent({
       { routeLink: 'login', label: 'Ir para Login' },
       { routeLink: 'preferencias', label: 'Ir para minhas Preferências' },
       { routeLink: 'perfil', label: 'Editar perfil' },
+      { routeLink: 'rascunho', label: 'Rascunho' },
     ];
     return { menuLinks };
   },
